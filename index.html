@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Style Files -->
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/bing.css">
+    <title>Bing</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/bing.png">
+                <span>Microsoft Bing</span>
+            </div>
+            <nav>
+                <div class="group">
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Video</a></li>
+                </div>
+                <div class="group">
+                    <li><a href="#">عربي</a></li>
+                    <li><a href="#"><ion-icon class="account" name="person-outline"></ion-icon><h5>Sign in</h5></a></li>
+                    <ion-icon class="Menu" name="menu-outline"></ion-icon>
+                        <ul class="Menu_Panel">
+                            <li class="nav_items">Links</li>
+                            <li class="nav_items">
+                                <a href="#">Images</a>
+                            </li>
+                            <li class="nav_items">
+                                <a href="#">Video</a>
+                            </li>
+                            <li>Menu</li>
+                            <li>
+                                <ion-icon name="settings-outline"></ion-icon>
+                                <a href="#">setting</a>
+                            </li>
+                            <li>
+                                <ion-icon name="lock-closed-outline"></ion-icon>
+                                <a href="#">Safe Search</a>
+                            </li>
+                            <li>
+                                <ion-icon name="time-outline"></ion-icon>
+                                <a href="#">Search History</a>
+                            </li>
+                            <li>
+                                <ion-icon name="shield-half-outline"></ion-icon>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <ion-icon name="chatbox-outline"></ion-icon>
+                                <a href="#">FeedBack</a>
+                            </li>
+                            <li class="Customize_menu">
+                                <ion-icon name="home-outline"></ion-icon>
+                                <a href="#">Customize Your Homepage</a>
+                                <ion-icon class="more_ico" name="chevron-forward-outline"></ion-icon>
+
+                            </li>
+                            <ul class="sub_menu_panel">
+                                <li>
+                                    <label class="Switch" for="checkbox_1">
+                                        Show menu bar
+                                        <input type="checkbox" id="checkbox_1" >
+                                        <span  class="slider_round"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="Switch" for="checkbox_2">
+                                        Show homepage image
+                                        <input type="checkbox" id="checkbox_2">
+                                        <span class="slider_round"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </ul> 
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <section>
+        <!-- <div class="Background_Bing">
+            <img src="img/5.jpg" >
+        </div> -->
+        <div class="container">
+            <div class="Search_Aria_Container">
+                <div class="box Search_box">
+                    <input type="search" id="Search_field">
+                    <label class="icon Start_Web_Search" for="">
+                        <ion-icon class="ico web" name="search"></ion-icon>
+                    </label>
+                    <label class="icon Start_Img_Search">
+                        <ion-icon class="ico img" name="image"></ion-icon>
+                    </label>
+                    <label class="icon Start_Voice_Search">
+                        <ion-icon class="ico voice" name="mic"></ion-icon>
+                    </label>
+                </div>
+                <div class="box arrow_and_Info_box">
+                    <div class="arrows">
+                        <div class="left_arrow">
+                            <span class="left"> < </span>
+                        </div>
+                        <div class="right_arrow">
+                            <span class="right"> > </span>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <ion-icon class="map_point" name="locate"></ion-icon>
+                        <span>info</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Thanks for all MicroSoft Dev</a></li>
+                <li><a href="#">Cloned By :Ahmed Shehata</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/bing.js"></script>
+</body>
+</html>
