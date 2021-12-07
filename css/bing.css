@@ -301,6 +301,12 @@ section .container .Search_Aria_Container{
     height: 50px;
     display: flex;
 }
+@media(max-width:768px){
+  .Search_Aria_Container .Search_box{
+    max-width:100%;
+    height: 40px;
+  }
+}
 .Search_Aria_Container .Search_box .icon{
     position: absolute;
     font-size: 18px;
